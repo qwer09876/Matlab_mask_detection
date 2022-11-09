@@ -23,7 +23,7 @@
 #### 安装教程
 
 1.  需要安装matlab,最好是较高版本
-2.  matlab App 摄像头 可参考[https://blog.csdn.net/weixin_44505194/article/details/111172488]![IL}20{4~FLW$KM~HF_9Z3)X](https://user-images.githubusercontent.com/59789921/200735375-6dbdccb0-09d8-44b4-8f94-d0b3b6152184.png)
+2.  matlab App 摄像头 可参考[https://blog.csdn.net/weixin_44505194/article/details/111172488]
 
 
 #### 使用说明
@@ -47,8 +47,7 @@ skinColorRemove为肤色去除，用RGB转HSV形式设定阈值分离出皮肤�
 ![}D 1`)TEBSMO%}IWB3$51A](https://user-images.githubusercontent.com/59789921/200735088-6351a8b5-d17b-4e12-aa14-1aecb7f250ba.png)
 ![DWXTR5LOY4 @$DY}$DEOPIE](https://user-images.githubusercontent.com/59789921/200735096-18ddbc79-6b75-4b82-91b5-f8fca1d8befb.png)
 
-![IL}20{4~FLW$KM~HF_9Z3)X](https://user-images.githubusercontent.com/59789921/200735403-582ad673-3635-43e3-b8c4-0a3b62831987.png)
-
+![IL}20{4~FLW$KM~HF_9Z3)X](https://user-images.githubusercontent.com/59789921/200735375-6dbdccb0-09d8-44b4-8f94-d0b3b6152184.png)
 ####  有待改进
 1、可以在对人脸检测分割后图像做背景差分，减少对口罩处理的影响
 2、对图像增强，可以增加一定对比度，让肤色和口罩或者其他内容增加差异
