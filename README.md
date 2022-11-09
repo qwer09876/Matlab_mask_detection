@@ -14,3 +14,10 @@
 2、对图像增强，可以增加一定对比度，让肤色和口罩或者其他内容增加差异
 3、可以融合进传统口罩识别方法，对口罩颜色进行一定的判别。
 4、还有很多需要改进的。。。
+# 函数解析（没有封装，纯源码）
+face_detect_main.m为主函数，处理输入选择图片还是视频后，调用image_process
+image_process为调用其他函数的综合
+face_detecion_func.m为调用matlab内置人脸识别模块分割人脸
+RGB_filter为RGB通道分离后滤波再合并
+morphology_filter为形态学滤波，开运算，闭运算后膨胀
+skinColorRemove为肤色去除，用RGB转HSV形式设定阈值分离出皮肤，将皮肤置零，其他可能是口罩的部分保留
